@@ -1,3 +1,166 @@
 body{
-	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
 }
+
+main{
+	display: flex;
+}
+
+main section{
+	width: 50%;
+}
+
+.palete-picker header{
+	background-color: #D9D9D9;
+}
+.palete-picker ul{
+	list-style: none;
+	display: flex;
+}
+.palete-picker li{
+	margin: 10px;
+}
+.palete-picker nav >ul>button{
+	padding: 10px;
+	border: 1px soli gray;
+	cursor: pointer;
+	border-radius: 10px;
+	background-color: #D9D9D9;
+}
+
+.visulizacion-app-web{
+	background-color: #FF638B;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+.app-visualizar{
+	background-color: #F2F3F8;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	margin: 10px;
+
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: white;
+	border-radius: 20px;
+}
+header{
+	display: flex;
+	justify-content: space-around;
+}
+
+figure{
+	background-color: #C83513;
+	color: white;
+	border-radius: 10px 10px 20px 20px;
+}
+figure h5,h2{
+	margin: 5px;
+}
+.text-and-icon{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px;
+}
+figure span{
+	background-color: white;
+	color: black;
+	padding: 10px;
+	border-radius: 100%;
+}
+article{
+	margin: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+article h3,p{
+	margin: 10px;
+}
+article h3{
+	color: #C83513;
+}
+
+
+menu{
+	background-color: white;
+	margin-bottom: 0;
+}
+
+menu ul{
+	list-style: none;
+	display: flex;
+}
+
+menu li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+menu span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+	width: 20px;
+	background-color: #C83513;
+	color: white;
+	border-radius: 100%;
+	padding: 10px;
+}
+
+footer ul{
+	background-color: white;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 20px;
+	margin-bottom: 0;
+	border-radius: 20px;
+}
+
+.visulizacion-app-web button{
+	background-color: cadetblue;
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+	border: none;
+	padding: 10px;
+	margin: 10px;
+}
+
+.web-visualizar{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+}
+
+.web-visualizar button{
+	background-color: salmon;
+	color: white;
+}
+
+.web-visualizar ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.web-visualizar li{
+	margin: 10px;
+}
+
