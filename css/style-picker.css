@@ -49,12 +49,15 @@ main section{
 
 }
 
+
+
 nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	background-color: white;
 	border-radius: 20px;
+	margin: 8px;
 }
 header{
 	display: flex;
@@ -97,16 +100,21 @@ article h3{
 menu{
 	background-color: white;
 	margin-bottom: 0;
+	width: 90%;
 }
 
-menu ul{
+menu > ul{
 	list-style: none;
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 70%;
 }
 
 menu li{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -147,20 +155,64 @@ footer ul{
 	flex-direction: column;
 	align-items: center;
 	background-color: white;
+	width: 90%;
+	margin-bottom: 10px;
+}
+.web-visualizar nav{
+	width: 100%;
 }
 
 .web-visualizar button{
 	background-color: salmon;
 	color: white;
 }
+.web-visualizar input{
+	width: 350px;
+}
 
-.web-visualizar ul{
+.web-visualizar nav> ul{
 	list-style: none;
 	display: flex;
+	justify-content: space-around;
 	align-items: center;
+	width: 100%;
 }
 
 .web-visualizar li{
-	margin: 10px;
+	margin-right: 10px;
+}
+.web-visualizar span{
+	color: salmon;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.web-visualizar span> i{
+	margin-right: 5px;
 }
 
+.web-visualizar h1{
+	font-size: 40px;
+}
+
+.web-visualizar article{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.web-visualizar article >img{
+	height: 200px;
+	width: 200px;
+}
+.web-visualizar article >h1,p,button{
+	margin-left: 30px;
+}
+
+.web-visualizar article >button{
+	width: 105px;
+}
+
+.web-visualizar footer{
+	color: gray;
+}
