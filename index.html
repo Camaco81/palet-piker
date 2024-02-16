@@ -31,8 +31,9 @@
 
 
 		</section>
-		<section class="visulizacion-app-web margin20">
-			<div class="app-visualizar" style="display: none;">
+		<section class="visulizacion-app-web margin20" >
+			<button type="button" id="cambiar">Cambiar a  otro modelo</button>
+			<div class="app-visualizar" style="display: none;"id="app">
 				<!-- style="display: none;" -->
 				<nav>
 					<a>
@@ -45,7 +46,7 @@
 				</nav>
 				<header>
 					<h4>Tu tienes el control</h4>
-					<h4>Detalles <a href=""><i class="bi bi-arrow-right"></i></a></h4>
+					<h4>Detalles <a ><i class="bi bi-arrow-right"></i></a></h4>
 				</header>
 
 				<figure>
@@ -103,6 +104,7 @@
 							<p>Vender</p>
 						</li>
 					</ul>
+
 				</menu>
 
 				<footer>
@@ -115,10 +117,11 @@
 
 			</div>
 
-			<div class="web-visualizar">
+			<div class="web-visualizar" id="web" style="display:flex;">
 				<nav>
 					<ul>
-						<li>Bussines logo</li>
+						<li>
+							<span><i class="bi bi-heart-fill"></i> Logo</span></li>
 						<li>Home</li>
 						<li>New</li>
 						<li>Accesories</li>
@@ -128,7 +131,7 @@
 					<ul>
 						<li>Login</li>
 						<i></i>
-						<li>SignUp <i></i></li>
+						<li>SignUp <i class="bi bi-cart2"></i></li>
 					</ul>
 				</nav>
 				<div>
@@ -136,13 +139,17 @@
 					<button>Search</button>
 				</div>
 
-				<div>
+				
 					<article>
-						<h1>Bussines <br>Landing Page</h1>
-						<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Cupiditate sunt aspernatur
-							repellendus aut earum, tenetur, beatae eius quod rerum exercitationem!</p>
+						<div>
+							<h1>Bussines <br>Landing Page</h1>
+						<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Cupiditate sunt aspernatur repellendus aut earum, tenetur, beatae eius quod rerum exercitationem!</p>
+						<button>Learn More</button>
+						</div>
+						<img src="assets/img-compra.png" >
+						
 					</article>
-				</div>
+
 				<footer>
 					<ul>
 						<li>Privacy</li>
@@ -152,11 +159,13 @@
 				</footer>
 			</div>
 
-			<button>Mostrar otro modelo</button>
+
 		</section>
+
 	</main>
 
-
+	<script src="js/palete-picker.js"></script>
+	
 </body>
 
 </html>
