@@ -228,3 +228,24 @@ footer ul{
 .web-visualizar footer{
 	color: gray;
 }
+
+#palleteContainer{
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	border-radius:5px;
+	overflow: hidden;
+
+}
+
+.palleteItem{
+	transition: background-color .5s;
+}
+
+.palleteItem span{
+	padding: 10px;
+	background-color: rgba(0, 0,0, 0.2);
+	color: white;
+	display: inline-block;
+	min-width: 80px;
+}
